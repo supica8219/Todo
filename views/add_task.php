@@ -17,8 +17,8 @@
 <option value="low">低</option>
 </select>
 
-<input type="text" id="start_date" name="start_date" class="form-control mb-2">
-<input type="text" id="end_date" name="end_date" class="form-control mb-2">
+<input type="text" id="start_date" name="start_date" class="form-control mb-2" placeholder="開始日">
+<input type="text" id="end_date" name="end_date" class="form-control mb-2" placeholder="終了日">
 
 <select name="project_id" class="form-select mb-3">
 <?php foreach($projects ?? [] as $p): ?>

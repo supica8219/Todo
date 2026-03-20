@@ -22,7 +22,7 @@ value="<?= htmlspecialchars($task["title"] ?? "") ?>">
 </select>
 
 <input type="text" id="start_date" name="start_date" class="form-control mb-2"
-value="<?= !empty($task['start_date']) ? date('Y/m/d', strtotime($task['start_date'])) : '' ?>" placeholder="着手日">
+value="<?= !empty($task['start_date']) ? date('Y/m/d', strtotime($task['start_date'])) : '' ?>" placeholder="開始日">
 
 <input type="text" id="end_date" name="end_date" class="form-control mb-2"
 value="<?= !empty($task['end_date']) ? date('Y/m/d', strtotime($task['end_date'])) : '' ?>" placeholder="終了日">

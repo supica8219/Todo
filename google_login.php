@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-
+require 'env.php';
 $client = new Google_Client();
 $client->setClientId(retClientId());
 $client->setClientSecret(retClientSecret());
