@@ -1,5 +1,6 @@
 # ===== 環境変数・秘密情報 =====
 env.php
+db.php
 .env
 
 # ===== Composer（PHP依存）=====

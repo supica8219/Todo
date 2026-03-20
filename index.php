@@ -67,10 +67,10 @@ if($action==="user"){
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="manifest" href="/CRUD/manifest.json">
+<link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2f80ed">
-<link rel="apple-touch-icon" href="/CRUD/icons/icon-192.png">
-<link rel="icon" type="image/png" href="/CRUD/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="icon" type="image/png" href="/icons/icon-192.png">
 <title>タスク管理</title>
 </head>
 

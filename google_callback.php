@@ -7,7 +7,7 @@ require 'env.php';
 $client = new Google_Client();
 $client->setClientId(retClientId());
 $client->setClientSecret(retClientSecret());
-$client->setRedirectUri('https://portfolio.shizusouth.jp/CRUD/google_callback.php');
+$client->setRedirectUri('https://todo.shizusouth.jp/google_callback.php');
 // 認証コード取得
 if (!isset($_GET['code'])) {
     exit('認証失敗');
