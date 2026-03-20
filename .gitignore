@@ -2,7 +2,7 @@
 env.php
 db.php
 .env
-
+memo.txt
 # ===== Composer（PHP依存）=====
 /vendor/
 
